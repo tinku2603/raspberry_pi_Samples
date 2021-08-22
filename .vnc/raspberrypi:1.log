@@ -1,0 +1,41 @@
+Starting Xvnc
+Waiting for Xvnc...
+VNC(R) Server 6.2.1 (r32538) ARMv6 (Dec 1 2017 13:18:34)
+Copyright (C) 2002-2017 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366; EU patent 2652951.
+See https://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+https://www.realvnc.com/docs/6/foss.html
+<13> 2018-06-06T15:41:05.747Z raspberrypi Xvnc[1190]: ServerManager: Server started
+Underlying X server release 609000, The X.Org Foundation
+
+error opening security policy file /usr/X11R6/lib/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/TTF/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/CID/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Starting xstartup
+xstartup started
+/etc/vnc/xstartup: 27: /etc/vnc/xstartup: xsetroot: not found
+Starting session: /etc/X11/Xsession
+Session terminated with return code 1
+xstartup terminated
+Sending TERM signal to Xvnc...
+FreeFontPath: FPE "/usr/share/vnc/fonts/" refcount is 2, should be 1; fixing.
+VNC(R) Server 6.2.1 (r32538) ARMv6 (Dec 1 2017 12:57:50)
+Copyright (C) 2002-2017 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366; EU patent 2652951.
+See https://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+https://www.realvnc.com/docs/6/foss.html
+<11> 2018-06-06T15:41:06.966Z raspberrypi vncserverui-virtual[1230]: vncserverui: unable to open display ":1"
+<13> 2018-06-06T15:41:06.969Z raspberrypi Xvnc[1190]: ServerManager: Server stopped
+Xvnc terminated

@@ -1,0 +1,4 @@
+Xsession: X session started for pi at Sun 21 Jan 09:52:10 UTC 2018
+Xsession: unable to start X session --- no "/home/pi/.xsession" file, no 
+"/home/pi/.Xsession" file, no session managers, no window managers, and no 
+terminal emulators found; aborting.
